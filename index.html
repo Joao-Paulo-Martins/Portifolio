@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>João Paulo Martins - Desenvolvedor Frontend</title>
+
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+
+    <!-- Global -->
+    <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between alinhar-itens-no-centro">
+          <a href="#">
+            <h1 class="logo">JP</h1>
+          </a>
+          <nav>
+            <input id="menu-hamburguer" type="checkbox" />
+
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+            <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Meus projetos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="container">
+        <div class="row full-screen alinhar-itens-no-centro">
+          <div class="texto-home">
+            <p>Olá 🖖,</p>
+            <h1>Sou o João Paulo Martins</h1>
+            <h2>Desenvolvedor Frontend</h2>
+
+            <div class="redes-sociais">
+              <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-martins-sena-48aa81151/" class="outer-shadow"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="https://wa.me/553183831987" class="outer-shadow"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
+              <a href="#" class="outer-shadow"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="img-home">
+            <div class="img-box inner-shadow">
+              <img
+                class="outer-shadow"
+                src="src/imagens/foto-perfil-joao-paulo.jpg"
+                alt="foto do perfil do João Paulo Martins"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="imagem-sobre-mim">
+            <div class="img-box inner-shadow">
+              <img
+                src="src/imagens/foto-perfil-joao-paulo.jpg"
+                alt="foto sobre mim"
+                class="outer-shadow"
+              />
+            </div>
+          </div>
+          <div class="informacoes-sobre-mim">
+            <p>
+              <strong
+                >Olá! Me chamo Ricardo Dias e sou um desenvolvedor frontend em
+                formação!</strong
+              >
+              Gosto MUITO da área de tecnologia, e tenho certeza que posso
+              contribuir em qualquer time com as minhas habilidades.
+            </p>
+
+            <p>
+              EOlá, eu sou o João Paulo Martins! Sou desenvolvedor em formação,
+              com conhecimentos em HTML, CSS, JavaScript, Git, GitHub e
+              automações com n8n. Atualmente curso Análise e Desenvolvimento de
+              Sistemas na Descomplica e aplico o que aprendo em projetos
+              pessoais e também em projetos para outras pessoas, entregando
+              soluções práticas e funcionais. Meu objetivo é crescer
+              profissionalmente na área de tecnologia, com foco em projetos
+              freelancer, ajudando empresas e pessoas a transformarem suas
+              ideias em realidade através da tecnologia.
+            </p>
+
+            <p>
+              Quando não estou programando, gosto de cuidar do corpo e da mente.
+              Faço academia, caminhadas, leio livros para expandir meu
+              conhecimento e também jogo videogame para relaxar e me divertir.
+            </p>
+
+            <div class="botoes">
+              <a
+                target="_blank"
+                href="/src/arquivos/cv.pdf"
+                class="botao outer-shadow"
+                >Veja meu CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Habilidades</h2>
+          </div>
+        </div>
+
+        <div class="container-habilidades">
+          <div class="informacoes javascript">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain" id="javascript"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>
+              Linguagem de programação usada principalmente no desenvolvimento
+              web. Dá interatividade a páginas (animações, validações de
+              formulários, menus dinâmicos). Funciona no navegador (front-end) e
+              também no servidor com Node.js (back-end).
+            </p>
+          </div>
+
+          <div class="informacoes html">
+            <div class="logo">
+              <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>
+              Linguagem de marcação usada para estruturar o conteúdo da web.
+              Define títulos, parágrafos, links, imagens, vídeos etc. É a base
+              de qualquer página da internet.
+            </p>
+          </div>
+
+          <div class="informacoes css">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>
+              Linguagem de estilo usada para deixar o HTML bonito e organizado.
+              Controla cores, fontes, espaçamentos, alinhamento e layout.
+              Permite criar designs modernos e responsivos.
+            </p>
+          </div>
+
+          <div class="informacoes github">
+            <div class="logo">
+              <i class="devicon devicon-github-original" id="github"></i>
+            </div>
+            <h3>GitHub</h3>
+            <p>
+              Plataforma online para hospedar projetos e colaborar com outros
+              desenvolvedores. Baseada em Git, permite compartilhar código,
+              versionar arquivos e contribuir em equipe. Muito usada para
+              portfólios e projetos open source.
+            </p>
+          </div>
+
+          <div class="informacoes git">
+            <div class="logo">
+              <i class="devicon devicon-git-plain" id="git"></i>
+            </div>
+            <h3>Git</h3>
+            <p>
+              Ferramenta de controle de versão que permite gerenciar mudanças no
+              código-fonte. Facilita a colaboração entre desenvolvedores,
+              permitindo que trabalhem em diferentes partes de um projeto
+              simultaneamente. Possibilita reverter alterações, criar
+              ramificações (branches) e mesclar (merge) código de diferentes
+              fontes.
+            </p>
+          </div>
+          <div class="informacoes n8n">
+            <div class="logo">
+              <svg
+                width="80"
+                height="80"
+                viewBox="0 0 100 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect x="0" y="0" width="100" height="100" fill="white" />
+
+                <circle
+                  cx="25"
+                  cy="50"
+                  r="7"
+                  stroke="black"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="7"
+                  stroke="black"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <circle
+                  cx="75"
+                  cy="30"
+                  r="7"
+                  stroke="black"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <circle
+                  cx="75"
+                  cy="70"
+                  r="7"
+                  stroke="black"
+                  stroke-width="2"
+                  fill="none"
+                />
+
+                <path d="M32 50H43" stroke="black" stroke-width="2" />
+                <path d="M57 50L68 30" stroke="black" stroke-width="2" />
+                <path d="M57 50L68 70" stroke="black" stroke-width="2" />
+              </svg>
+            </div>
+            <h3>N8N</h3>
+            <p>
+              Ferramenta de automação de fluxo de trabalho que permite conectar
+              diferentes aplicativos e serviços. Facilita a criação de
+              integrações e automações sem a necessidade de programação. Muito
+              utilizada para otimizar processos e aumentar a eficiência.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projetos section" id="projetos">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Meus projetos</h2>
+          </div>
+        </div>
+
+        <div class="container-projetos">
+          <div class="projeto">
+            <a href="https://joao-paulo-martins.github.io/Botflix/">
+              <img src="./src/imagens/Botflix-projeto-foto.jpg" alt="Botflix" />
+              <h3>Projeto Botflix</h3>
+              <div class="informacoes-projeto">
+                <p>
+                  Projeto feito usando HTML, CSS, JavaScript e N8N, o projeto e
+                  um bot de atendimento automatizado para streaming de filmes e
+                  séries.
+                </p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://joao-paulo-martins.github.io/agencia-xyz/">
+              <img
+                src="./src/imagens/projeto-agencia-foto.jpg"
+                alt="agencia-xyz"
+              />
+              <h3>Projeto 2</h3>
+              <div class="informacoes-projeto">
+                <p>
+                  Neste projeto, criei o website para a Agência XYZ com um único
+                  objetivo: transformar a presença online em uma ferramenta de
+                  vendas. Minha contribuição foi na estratégia e na copy, com
+                  foco em destacar os diferenciais de atendimento personalizado,
+                  agilidade na entrega e otimização para o Google. O resultado é
+                  um site que não só atrai, mas converte clientes de forma
+                  eficaz.
+                </p>
+                <p>🔗 Ver Site</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://v0-dentist-landing-page-alpha.vercel.app/">
+              <img
+                src="./src/imagens/imagem-landing-page-dentista.jpg"
+                alt="Projeto Site dentista"
+              />
+              <h3>Projeto Site dentista</h3>
+              <div class="informacoes-projeto">
+                <p>
+                  Projeto de landing page para um consultório dentário, com foco
+                  em conversão de visitantes em pacientes.
+                </p>
+                <p>🔗 Ver site</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://joao-paulo-martins.github.io/comercio-virtual/">
+              <img
+                src="./src/imagens/loja-virtual-foto.jpg"
+                alt="Loja Virtual"
+              />
+              <h3>Projeto Loja Virtual</h3>
+              <div class="informacoes-projeto">
+                <p>
+                  Projeto de e-commerce desenvolvido com foco na experiência do
+                  usuário e na conversão de vendas.
+                </p>
+                <p>🔗 Ver Site</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <h2>Me envie uma mensagem!</h2>
+        <div class="redes-sociais">
+          <a
+            href="https://www.linkedin.com/in/jo%C3%A3o-paulo-martins-sena-48aa81151/"
+            class="outer-shadow"
+            ><i class="fab fa-linkedin-in" target="_blank"></i
+          ></a>
+          <a href="https://web.whatsapp.com/" class="outer-shadow"
+            ><i class="fab fa-whatsapp" target="_blank"></i
+          ></a>
+          <a
+            href="https://github.com/Joao-Paulo-Martins"
+            class="outer-shadow"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/joao.m.paulo/?hl=pt-br"
+            class="outer-shadow"
+            ><i class="fab fa-instagram" target="_blank"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
